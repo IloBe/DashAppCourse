@@ -1,4 +1,19 @@
-# import packages
+#!/usr/bin/env -S python3 -i
+
+"""
+Plotly Dash Course
+Assignment 1 - Dash Fundamentals
+
+Exercise to create some Dash core components from a Pudding' dataset
+(https://github.com/the-pudding/data/tree/master/makeup-shades)
+
+Author: Ilona Brinkmeier
+Date: Oct. 2023
+"""
+
+##########################
+# imports
+##########################
 from dash import Dash, dcc, html
 
 import dash_bootstrap_components as dbc
@@ -19,7 +34,7 @@ brand_value_default = 'Revlon' if 'Revlon' in brand_options else brand_options[0
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 # app layout
-# Create app components
+# create app components
 markdown = dcc.Markdown(id='shades-title-markdown',
                         children='My exercise A "shades" app',
                         style={'fontSize': 16, 'textAlign': 'left', 'color': 'blue'})

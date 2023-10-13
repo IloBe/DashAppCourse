@@ -25,8 +25,6 @@ Recommended chapters for more advanced learning: [Pagination](https://dash.plotl
 Plotly Express Graphs:<br>
 [Graph attributes](https://plotly.com/python-api-reference/plotly.express.html)
 
-[Class Assignment](https://docs.google.com/document/d/1XtS0cLxe7GT5WoZ6U7Qfk008aw1fazYRvrbKO29G3BM/edit?usp=sharing)
-
 
 ## Week 2:
 ### Resources - Dash Interactivity 
@@ -47,7 +45,6 @@ Datasets to be used throughout the course: [agriculture](https://github.com/plot
 
 [Plotly Dash Forum](https://community.plotly.com/)
 
-[Class Assignment](https://docs.google.com/document/d/1gUpMaA4pLiZEh5otMlARkbXLOaYENwdZmvDomXj_hTA/edit?usp=sharing)
 
 
 ## Week3:

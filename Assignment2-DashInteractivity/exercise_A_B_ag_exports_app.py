@@ -54,7 +54,6 @@ graph = dcc.Graph(id='graph1',
                   figure={})  # empty graph diagram
 
 
-
 # app Layout
 # future toDo: how to add pagination to the figure column
 # perhaps possible via bootstrap column

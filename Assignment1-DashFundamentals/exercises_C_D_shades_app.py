@@ -100,7 +100,6 @@ fig_V_S.update_layout(
 )
 
 
-
 # app Layout
 app.layout = dbc.Container(
     [

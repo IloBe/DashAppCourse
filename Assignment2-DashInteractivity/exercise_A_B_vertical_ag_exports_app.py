@@ -4,7 +4,7 @@
 Plotly Dash Course
 Assignment 2 - Dash interactivity
 
-Horizontal solution
+Vertical solution
 Exercise to create some Dash core components from an US agriculture dataset
 (https://github.com/plotly/datasets/blob/master/Dash-Course/US-Exports/2011_us_ag_exports.csv)
 This csv file is stored in the general projects data directory.
@@ -86,14 +86,15 @@ def update_graph(state_selected):
     df_country = df_ag.loc[df_ag['state'].isin(state_selected)]
     # note: pagination for graphs as future toDo
     fig = px.bar(df_country,
-                 x='state',
-                 y=['beef','pork','fruits fresh'],
+                 y='state',
+                 x=['beef','pork','fruits fresh'],
+                 orientation='h',
+                 height=800,
                  labels={
                      'state': 'State',
                      'variable': 'Food Group',
                      'value': 'Counter',
                  },
-                 height=600,
                 )
     
     return fig

@@ -26,7 +26,6 @@ Plotly Express Graphs:<br>
 [Graph attributes](https://plotly.com/python-api-reference/plotly.express.html)
 
 
-## Week 2:
 ### Resources - Dash Interactivity 
 
 WasmDash for building Dash apps on the browser: https://wasmdash.vercel.app/ 
@@ -45,6 +44,25 @@ Datasets to be used throughout the course: [agriculture](https://github.com/plot
 
 [Plotly Dash Forum](https://community.plotly.com/)
 
+
+
+## Week2:
+### Resources - Building Graphs
+
+WasmDash for building Dash apps on the browser: https://wasmdash.vercel.app/
+
+Datasets to be used throughout the course: [agriculture](https://github.com/plotly/datasets/blob/master/Dash-Course/US-Exports/2011_us_ag_exports.csv), [makeup](https://github.com/plotly/datasets/blob/master/Dash-Course/makeup-shades/shades.csv)
+
+Plotly Python [graphing docs](https://plotly.com/python/)
+
+Plotly Express: intro to the [high-level interface](https://plotly.com/python-api-reference/plotly.express.html)
+
+[Plotly Figure Reference](https://plotly.com/python/reference/index/)
+
+The Dash Core [Graph Component](https://dash.plotly.com/dash-core-components/graph)
+
+
+### Resources - ...
 
 
 ## Week3:

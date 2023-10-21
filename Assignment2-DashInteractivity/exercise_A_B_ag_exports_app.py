@@ -55,7 +55,7 @@ graph = dcc.Graph(id='graph1',
                   figure={})  # empty graph diagram
 
 
-# app Layout
+# app layout
 app.layout = dbc.Container(
     [
         dbc.Row([dbc.Col([markdown], width=8)]),

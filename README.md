@@ -62,7 +62,33 @@ Plotly Express: intro to the [high-level interface](https://plotly.com/python-ap
 The Dash Core [Graph Component](https://dash.plotly.com/dash-core-components/graph)
 
 
-### Resources - ...
+### Resources - Advanced Applications
+
+Dash Bootstrap: [choosing and declaring the stylesheet/theme](https://dash-bootstrap-components.opensource.faculty.ai/docs/themes/)
+
+List of [all available themes](https://bootswatch.com/default/)
+
+[Rows and Columns](https://dash-bootstrap-components.opensource.faculty.ai/docs/components/layout/) to position your app components neatly on the page
+
+[dbc.Button()](https://dash-bootstrap-components.opensource.faculty.ai/docs/components/button/)
+
+[Dash Bootstrap styling cheat sheet](https://dashcheatsheet.pythonanywhere.com/)
+
+Advanced Callbacks:
+- [State argument:](https://dash.plotly.com/basic-callbacks#dash-app-with-state)<br>
+   commonly used when there are certain components in the callback Input that should not trigger the callback. For example,     a dropdown combined with a button; the dropdown would be assigned to the State and the button to the Input.
+- [no_update:](https://dash.plotly.com/advanced-callbacks#displaying-errors-with-dash.no_update)<br>
+   used at the end of the function when you don’t want certain Output components to update.
+- [duplicate_outputs: ](https://dash.plotly.com/duplicate-callback-outputs)<br>
+   needs to be added when you use the same component ID AND Property in the Output within two different callbacks.
+- [prevent_initial_call](https://dash.plotly.com/advanced-callbacks#prevent-callback-execution-upon-initial-component-render)<br>
+  used if you don’t want the callback to trigger when the app first loads or anytime the app (browser) is refreshed. 
+
+Expanding your component collection:
+- [Upload for csv](https://dash.plotly.com/dash-core-components/upload); Upload for[images](https://dash.plotly.com/dash-core-components/upload#displaying-uploaded-images). (not on WasmDash)
+- [Interval](https://dash.plotly.com/dash-core-components/interval) component
+- [Modal](https://dash-bootstrap-components.opensource.faculty.ai/docs/components/modal/): first example with this [WasmDash modal code](https://github.com/plotly/tutorial-code/blob/main/session4/modal_example.py).
+
 
 
 ## Week3:

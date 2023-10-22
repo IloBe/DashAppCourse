@@ -85,7 +85,7 @@ Advanced Callbacks:
   used if you don’t want the callback to trigger when the app first loads or anytime the app (browser) is refreshed. 
 
 Expanding your component collection:
-- [Upload for csv](https://dash.plotly.com/dash-core-components/upload); Upload for[images](https://dash.plotly.com/dash-core-components/upload#displaying-uploaded-images). (not on WasmDash)
+- [Upload for csv](https://dash.plotly.com/dash-core-components/upload); Upload for [images](https://dash.plotly.com/dash-core-components/upload#displaying-uploaded-images). (not on WasmDash)
 - [Interval](https://dash.plotly.com/dash-core-components/interval) component
 - [Modal](https://dash-bootstrap-components.opensource.faculty.ai/docs/components/modal/): first example with this [WasmDash modal code](https://github.com/plotly/tutorial-code/blob/main/session4/modal_example.py).
 

@@ -36,10 +36,6 @@ df_ag = pd.read_csv('../data/2011_us_ag_exports.csv')
 # initialise the app
 # create the components
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-
-# initialise the app
-# create the components
-app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 markdown = dcc.Markdown(id='shades-title-markdown',
                         children='My exercise B "US agriculture" advanced app with callback',
                         style={'fontSize': 16, 'textAlign': 'left', 'color': 'blue'})

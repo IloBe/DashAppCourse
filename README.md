@@ -92,4 +92,52 @@ Expanding your component collection:
 
 
 ## Week3:
-### Resources - ...
+### Resources - App Deployment and Resources
+
+[Render.com](https://dashboard.render.com/)
+
+#### Deployed example on Render with data coming in through http link:
+[deploy-app-example-repo](https://github.com/Coding-with-Adam/deploy-app-example/tree/main)
+ 
+##### Prepare your App on Pycharm: 
+1. Open Pycharm and activate venv:<br>
+   ```.\venv\Scripts\activate```
+2. Install all libraries and gunicorn in your virtual environment
+3. Create requirements file:<br>
+   ```pip freeze > requirements.txt```
+4. Make sure your app code has<br>
+   ```server = app.server```
+5. Run app to make sure it works:<br>
+   python app.py
+6. Push code to your github account; how-to see: https://youtu.be/vpRkAoCqX3o 
+
+##### Deploy App to the Web with Render
+how-to see: https://youtu.be/H16dZMYmvqo?feature=shared 
+
+7. Open your Render account
+8. Create new Web Service and choose: “Build and deploy from a Git repository”
+9. Add the url of your public git repository
+10. Give the app a unique name
+11. Update the gunicorn command to:<br>
+    ```gunicorn app_name:server```<br>
+    (Note: uvicorn can be used as well, see app conditions you have implemented)
+
+Note: Possible error:<br>
+Render won’t work with the latest version of certain python libraries. For example, you’ll get an error if your requirements.txt file has the most recent version of pandas. Render allows up to pandas==1.3.5
+
+#### Deployed example on Render with data in local csv sheet:
+[deploy-app2-example-repo](https://github.com/Coding-with-Adam/deploy-app2-example)
+
+- When your app has a local csv sheet you’re pulling data from, the file structure should look like this: [deploy-app2-example-repo](https://github.com/Coding-with-Adam/deploy-app2-example)
+- Notice how you would [read the csv sheet into your app](https://github.com/Coding-with-Adam/deploy-app2-example/blob/main/src/app.py)
+- Don’t forget to add to your app code:<br>
+```server = app.server```
+- And install _gunicorn_ or _uvicorn_ in your virtual environment
+- When deploying the app on Render.com, ensure that the Root Directory is _src_
+
+<br>
+
+[Resources for future Dash learning](https://drive.google.com/file/d/16989ZAMGjVGnLYTzQshLQRGhVs8mZCFR/view?usp=sharing)
+
+Make use of community Dash knowledge on the forum: https://community.plotly.com/ 
+
